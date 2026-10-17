@@ -1,0 +1,151 @@
+[
+  {
+    "date": "2026-09-06 17:00:05",
+    "duration_seconds": 226.5,
+    "exercises": [
+      {
+        "exercise": "bicep_curl",
+        "target": 10,
+        "achieved": 10,
+        "completed": true
+      },
+      {
+        "exercise": "lunge",
+        "target": 3,
+        "achieved": 3,
+        "completed": true
+      }
+    ]
+  },
+  {
+    "date": "2026-09-06 17:09:07",
+    "duration_seconds": 131.3,
+    "exercises": [
+      {
+        "exercise": "bicep_curl",
+        "target": 10,
+        "achieved": 10,
+        "completed": true
+      }
+    ]
+  },
+  {
+    "date": "2026-09-06 17:13:32",
+    "duration_seconds": 46.7,
+    "exercises": [
+      {
+        "exercise": "bicep_curl",
+        "achieved": 11,
+        "target": null,
+        "met_target": null
+      }
+    ],
+    "suggestions": [
+      "This was a short session \u2014 even 5-10 extra minutes adds meaningful volume.",
+      "You focused on one exercise \u2014 a planned session with a few different exercises can help balance muscle groups."
+    ]
+  },
+  {
+    "date": "2026-09-06 17:14:53",
+    "duration_seconds": 55.2,
+    "exercises": [
+      {
+        "exercise": "bicep_curl",
+        "achieved": 10,
+        "target": 10,
+        "met_target": true
+      }
+    ],
+    "suggestions": [
+      "You hit your bicep curl target comfortably \u2014 consider raising it next session.",
+      "This was a short session \u2014 even 5-10 extra minutes adds meaningful volume.",
+      "You focused on one exercise \u2014 a planned session with a few different exercises can help balance muscle groups."
+    ]
+  },
+  {
+    "date": "2026-09-19 11:27:37",
+    "duration_seconds": 21.7,
+    "exercises": [],
+    "suggestions": [
+      "No exercises were completed \u2014 try a short freestyle session to get started."
+    ]
+  },
+  {
+    "date": "2026-09-19 12:04:08",
+    "duration_seconds": 211.9,
+    "exercises": [],
+    "suggestions": [
+      "No exercises were completed \u2014 try a short freestyle session to get started."
+    ]
+  },
+  {
+    "date": "2026-09-19 12:26:31",
+    "duration_seconds": 28.0,
+    "exercises": [
+      {
+        "exercise": "squat",
+        "achieved": 2,
+        "target": 2,
+        "met_target": true
+      }
+    ],
+    "suggestions": [
+      "You hit your squat target comfortably \u2014 consider raising it next session.",
+      "This was a short session \u2014 even 5-10 extra minutes adds meaningful volume.",
+      "You focused on one exercise \u2014 a planned session with a few different exercises can help balance muscle groups."
+    ]
+  },
+  {
+    "date": "2026-09-19 12:30:37",
+    "duration_seconds": 209.1,
+    "exercises": [
+      {
+        "exercise": "squat",
+        "achieved": 5,
+        "target": 5,
+        "met_target": true
+      },
+      {
+        "exercise": "bicep_curl",
+        "achieved": 5,
+        "target": 5,
+        "met_target": true
+      }
+    ],
+    "suggestions": [
+      "You hit your squat target comfortably \u2014 consider raising it next session.",
+      "You hit your bicep curl target comfortably \u2014 consider raising it next session."
+    ]
+  },
+  {
+    "date": "2026-09-19 19:18:26",
+    "duration_seconds": 16.4,
+    "exercises": [
+      {
+        "exercise": "squat",
+        "achieved": 0,
+        "target": null,
+        "met_target": null
+      }
+    ],
+    "suggestions": [
+      "This was a short session \u2014 even 5-10 extra minutes adds meaningful volume.",
+      "You focused on one exercise \u2014 a planned session with a few different exercises can help balance muscle groups."
+    ]
+  },
+  {
+    "date": "2026-09-19 20:07:31",
+    "duration_seconds": 2449.1,
+    "exercises": [
+      {
+        "exercise": "squat",
+        "achieved": 0,
+        "target": null,
+        "met_target": null
+      }
+    ],
+    "suggestions": [
+      "You focused on one exercise \u2014 a planned session with a few different exercises can help balance muscle groups."
+    ]
+  }
+]
