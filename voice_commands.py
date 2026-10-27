@@ -262,3 +262,12 @@ class VoiceCommands:
                 break
 
         return commands
+
+
+def print_help():
+    print("\n[voice] You can say:")
+    print("  Switch exercise : 'squat', 'bicep curl', 'lunge', 'plank',")
+    print("                    'push up', 'shoulder press', 'side lunge'")
+    print("  Or naturally    : 'change to squat', 'switch to push up'")
+    print("  Skip the rest   : 'skip rest'")
+    print("  End the workout : 'stop workout'\n")

@@ -63,7 +63,7 @@ from workout_summary import WorkoutSummary
 
 from audio_cues import AudioCues
 
-from voice_commands import VoiceCommands
+from voice_commands import VoiceCommands, print_help
 
 
 # =====================================================
@@ -205,7 +205,8 @@ def run_workout(state):
     # Hands-free voice commands (listens on a background thread; stays off
     # with a message if Vosk or its model isn't installed)
     voice = VoiceCommands()
-    voice.start()
+    if voice.start():
+        print_help()
     voice_switched = False
 
     # Tracks the most recent progress value/type seen, for freestyle
@@ -802,6 +803,19 @@ def run_workout(state):
                 1.0,
                 (0, 255, 255),
                 3
+            )
+
+
+        # Voice hint (only shown when voice control is actually on)
+        if voice.enabled:
+            cv2.putText(
+                frame,
+                "Voice: say an exercise name | skip rest | stop workout",
+                (10, frame.shape[0] - 15),
+                cv2.FONT_HERSHEY_SIMPLEX,
+                0.55,
+                (255, 255, 255),
+                2
             )
 
 
